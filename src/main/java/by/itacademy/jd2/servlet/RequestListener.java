@@ -6,8 +6,8 @@ import javax.servlet.http.HttpServletRequest;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
-@javax.servlet.annotation.WebListener
-public class StartUpListener implements ServletRequestListener {
+@WebListener
+public class RequestListener implements ServletRequestListener {
 
     @Override
     public void requestDestroyed(ServletRequestEvent sre) {
